@@ -35,4 +35,11 @@ void main() {
       print(mark);
     }
   }
+
+  // Check for values inside or outside of range
+
+  const range = 40;
+  if (range >= 30 && range <= 60) {
+    print(range);
+  }
 }
